@@ -58,6 +58,11 @@ img {
   margin-bottom: 40px;
 }
 
+.portfolio__slider .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .portfolio__slider-wrap-left,
 .portfolio__slider-wrap-right {
   display: flex;
@@ -85,7 +90,7 @@ img {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-208vw);
+    transform: translateX(-217vw);
   }
 }
 @keyframes portfolio__slider-right {
@@ -93,6 +98,6 @@ img {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(208vw);
+    transform: translateX(217vw);
   }
 }/*# sourceMappingURL=index.css.map */
